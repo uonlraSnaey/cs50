@@ -40,6 +40,7 @@ int letterCount(string text)
     int i = 0;
     do
     {
+        //isalpgaa();判断是否为字母；
         if(isalpha(text[i]))
         {
             count++;
