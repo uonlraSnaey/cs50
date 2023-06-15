@@ -11,6 +11,7 @@ Record the cs50 learning process
 - [x] mario-more
 - [x] Cash
 - [x] Credit
+- [x] 部分练习题
 
 总结：很久没写过C了，但还是熟悉的味道<br>
     练习和实验几乎没有难度，习题集还挺有意思的，特别是 cash 和 credit 这二个问题，学有余的话可以把四道题都尝试以下。	<br> 
@@ -23,6 +24,7 @@ Record the cs50 learning process
 - [x] Caesar
 - [ ] Substitution
 - [ ] Wordle50
+- [x] 部分练习题
 
 总结：
 1. 编码器(字符串（compiler）)：将信息从一种格式或表示形式转换为另一种格式或表示形式的设备、程序或算法。<br>
