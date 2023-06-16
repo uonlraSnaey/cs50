@@ -41,11 +41,13 @@ Record the cs50 learning process
 
 *************
 ## 这是第三周的内容: [week3]()
-- [] 
-- []
-- []
-- []
-- 
+
+- [x] lab: sort 
+- [x] Plurality
+- [x] Runoff
+- [ ] Tideman
+- [x] 部分练习题
+
 总结：
 
 1、时间复杂度：O(x).<br>
