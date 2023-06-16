@@ -63,6 +63,7 @@ int wordCount(string text)
             count++;
         }
     } */
+    
     do
     {
         if (text[i] == ' ')
