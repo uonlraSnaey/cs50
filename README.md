@@ -3,6 +3,13 @@ Record the cs50 learning process
 
 打算加快速度，先完成问题集的基础部分 ，问就是 __懒__
 
+**********
+# scratch 内容
+
+真好玩，嘿嘿🤤🤤🤤
+
+[space travel](https://github.com/uonlraSnaey/space-ravel)
+
 *********************
 ## 这是第一周的内容：[week1](https://github.com/uonlraSnaey/cs50/tree/main/week1)<br>
 - [x] Lab :population 
