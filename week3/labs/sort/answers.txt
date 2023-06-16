@@ -1,0 +1,8 @@
+sort1 uses: Bubble Sort
+How do you know?:  Its efficiency is slow when the sorting sequence is in reverse order
+
+sort2 uses:Merge Sort
+How do you know?: It takes the shortest average time to complete the whole process
+
+sort3 uses: Selection Sort
+How do you know?:Its efficiency is usually slow
