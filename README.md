@@ -1,6 +1,12 @@
 # cs50x 2023
 Record the cs50 learning process
 
+This [CS50](https://cs50.harvard.edu/x/2023) ！ 
+
+[video](https://youtu.be/AcWIE9qazLI) 
+
+[Notes](https://cs50.harvard.edu/x/2023/notes/)
+
 打算加快速度，先完成问题集的基础部分 ，问就是 __懒__
 
 **********
@@ -84,15 +90,40 @@ person;
     
     常 规！
 
+*************
+## 这是第四周的内容: [week3]()
 
+总结：
 
+像素可以想象为位图，0为黑色，1为白色。
 
+RGB:(red, green, blue).
 
+十六进制：0 1 2 3 4 5 6 7 8 9 a b c d e f
 
+    255 表示为FF,因为16*15 = 240 ，再加上 15 就为255.
 
+**指针**：
 
+[video](https://www.youtube.com/watch?v=5VnDaHBi8dM)
 
+指针是一个包含某个值地址的变量 (计算机内存的地址)
 
+指针的声明：
+
+    int n = 50;
+    int *p = &n;
+
+字符串：
+
+打印字符串的某一项值：
+
+printf("%p\n", &s\[0]);// printf("%c\n",*s);
+
+copy:
+复制地址，为不是复制值
+
+交换两个值需要第三个量充当中转。
 
 
 
