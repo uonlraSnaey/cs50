@@ -53,7 +53,7 @@ This [CS50](https://cs50.harvard.edu/x/2023) ！
 没有写增加难度的题目（其实是没有思路，没做出来），/remake<br>
 
 *************
-## 这是第三周的内容: [week3]()
+## 这是第三周的内容: [week3](https://github.com/uonlraSnaey/cs50/tree/main/week3)
 
 - [x] lab: sort 
 - [x] Plurality
@@ -91,7 +91,7 @@ person;
 常 规！
 
 *************
-## 这是第四周的内容: [week4]()
+## 这是第四周的内容: [week4](https://github.com/uonlraSnaey/cs50/tree/main/week4)
 
 总结：
 
