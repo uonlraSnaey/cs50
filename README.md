@@ -92,6 +92,13 @@ person;
 
 *************
 ## 这是第四周的内容: [week4](https://github.com/uonlraSnaey/cs50/tree/main/week4)
+- [x] lab: smiley
+- [x] bottomup
+- [x] license
+- [x] filter-more
+- [x] recover
+- [x] 部分练习题
+
 
 总结：
 
