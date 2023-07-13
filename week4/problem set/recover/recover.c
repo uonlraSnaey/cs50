@@ -49,7 +49,6 @@ int main(int argc, char *argv[])
             fwrite(&buffer, BLOCK_SIZE, 1, output);
         }
     }
-
     fclose(input);
     fclose(output);
     return 0;
