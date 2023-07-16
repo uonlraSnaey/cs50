@@ -132,8 +132,92 @@ copy:
 
 交换两个值需要第三个量充当中转。
 
+*************
+## 这是第五周的内容: [week5]()
+
+- [x] practice: tire
+- [x] Lab: inheritance
+- [X] problem set : 
+
+###数据结构：
+
+本质是内存的组织形式，抽象难懂
+
+###栈和队列
+
+队列是抽象数据的一种形式，他具有特定的属性（FIFIO）和特定的的操作
+
+堆栈的属性不同于队列，但他也有特定的属性（LIFO）和特定操作
+
+堆栈：
+```
+const int CAPACITY = 50;
+
+typedef struct
+{
+    person people[CAPACITY];
+    int size;
+}
+stack;
+```
+数组是一种数据结构，它是一组按顺序排列的元素的集合。
+
+关于数组大小的[相关介绍](https://cs50.harvard.edu/x/2023/notes/5/#resizing-arrays)
+
+###链表 [详细介绍](https://cs50.harvard.edu/x/2023/notes/5/#linked-lists)
+
+链接列表是C 语言中最强大的数据结构之一，由一系列称为节点的元素组成，每个节点包含数据和指向下一个节点的指针，通过指针连接节点，形成一个动态的数据结构，可以灵活地插入、删除和修改节点，而无需预先分配固定大小的内存空间
+
+简单定义：
+```
+struct Node {
+    int data;          // 数据
+    struct Node* next; // 指向下一个节点的指针
+};
+```
+
+基本操作：
+
+1、创建列表 2、插入节点 3、删除节点 4、遍历链表
 
 
+-> 运算符：用于通过指针直接访问结构体成员，而不需要先解引用指针再使用点运算符来访问成员
 
+```
+struct Person {
+    char name[20];
+    int age;
+};
+
+// 创建一个结构体指针
+struct Person* personPtr;
+
+// 通过结构体指针访问结构体成员
+strcpy(personPtr->name, "John"); // 设置name为"John"
+personPtr->age = 25;             // 设置age为25
+
+// 输出结构体成员的值
+printf("Name: %s\n", personPtr->name);
+printf("Age: %d\n", personPtr->age);
+```
+
+###树 [详细解释](https://cs50.harvard.edu/x/2023/notes/5/#trees)
+
+是一种非线性的数据结构，由一组称为节点的元素组成，节点之间通过边连接。树的结构类似于现实生活中的树，根节点位于顶部，分支从根节点延伸出来，最终形成叶节点。
+
+树的节点由两个部分组成：数据和指向其他节点的指针
+
+
+###哈希 [详](https://cs50.harvard.edu/x/2023/notes/5/#hashing-and-hash-tables)
+
+哈希（Hash）是一种将数据映射到固定大小的索引值（哈希值）的技术。哈希表（Hash table）是基于哈希算法实现的数据结构，用于高效地存储和检索数据。
+
+哈希表由一个固定大小的数组和一个哈希函数组成 （哈希函数是一种将较大值减少为较小且可预测的值的算法）
+
+###字典树（tries） [详细解释](https://cs50.harvard.edu/x/2023/notes/5/#tries)
+
+用于高效存储和搜索字符串的数据结构。它的名称"Trie"来自于retrieve（检索）一词的发音 hhh
+
+Trie的主要特点是每个节点都代表一个字符串的字符，并且通过边连接形成树状结构，缺点是它们往往会占用大量内存
 
 
