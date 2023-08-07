@@ -1,0 +1,2 @@
+take the average of the energy, valence, and danceability scores of the listener's top 100 songs from 2018. This calculation would provide us with an overall sense of the listener's mood and the kind of music they enjoyed during that year.
+Longer Time Window、Inclusion of Other Factors and Personalized Weighting
