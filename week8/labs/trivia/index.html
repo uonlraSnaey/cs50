@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        // TODO: Add code to check answers to questions
+        document.addEventListener("DOMContentLoaded", () => {
+            // Elements
+            const yesButton = document.querySelector(".YES");
+            const noButtons = document.querySelectorAll(".NO");
+            const text1Element = document.getElementById("text1");
+            const checkButton = document.getElementById("check");
+            const inputElement = document.getElementById("input");
+            const text2Element = document.getElementById("text2");
+
+            // "Yes" button click event
+            yesButton.addEventListener("click", () => {
+                yesButton.style.backgroundColor = "green";
+                text1Element.innerText = "Correct!";
+            });
+
+            // "No" buttons click events
+            noButtons.forEach((noButton) => {
+                noButton.addEventListener("click", () => {
+                    noButton.style.backgroundColor = "red";
+                    text1Element.innerText = "Incorrect";
+                });
+            });
+
+            // "Check" button click event
+            checkButton.addEventListener("click", () => {
+                const inputValue = inputElement.value.toUpperCase();
+                if (inputValue === "WHITE") {
+                    inputElement.style.color = "green";
+                    text2Element.innerText = "Correct!";
+                } else {
+                    inputElement.style.color = "red";
+                    text2Element.innerText = "Incorrect";
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <!-- TODO: Add multiple choice question here -->
+            <h3>Which country invented tea?</h3>
+            <p id="text1"></p>
+            <button class="NO">England</button>
+            <button class="YES">China</button>
+            <button class="NO">America</button>
+            <button class="NO">Japan</button>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <!-- TODO: Add free response question here -->
+            <h3>Who starts first in chess?</h3>
+            <p id="text2"></p>
+            <input type="text" autocomplete="off" id="input">
+            <button id="check">Check Answer</button>
+        </div>
+    </div>
+</body>
+</html>
