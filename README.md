@@ -1,4 +1,5 @@
 # cs50x 2023
+
 Record the cs50 learning process
 
 This [CS50](https://cs50.harvard.edu/x/2023) ！ 
@@ -7,7 +8,7 @@ This [CS50](https://cs50.harvard.edu/x/2023) ！
 
 [Notes](https://cs50.harvard.edu/x/2023/notes/)
 
-打算加快速度，先完成问题集的基础部分 ，问就是 __懒__
+![image](https://github.com/uonlraSnaey/cs50/assets/120707623/97327144-0c21-443f-9691-ebdb76233051)
 
 **********
 # scratch 内容
